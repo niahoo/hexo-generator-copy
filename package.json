@@ -1,0 +1,15 @@
+{
+  "name": "hexo-generator-copy",
+  "version": "0.1.0",
+  "description": "hexo plugin copy static dir from static_dir to public_dir",
+  "main": "index",
+  "repository": "callmelanmao/hexo-generator-copy",
+  "keywords": [
+    "hexo",
+    "static",
+    "html",
+    "generator",
+    "copy"
+  ],
+  "dependencies": {}
+}
