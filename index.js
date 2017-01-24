@@ -16,7 +16,7 @@ function generator(locals) {
   function read(root) {
     var files = fs.readdirSync(root);
     files.forEach(function (file) {
-      if (file[0] === '.') {
+      if (file[0] === '.' || file[0].startsWith('_')) {
         return;
       }
       var filepath = path.join(root, file);
